@@ -1,0 +1,8 @@
+HTTP Method 주소             액션     설명
+GET         /posts          index   전체 글 리스트 페이지
+POST        /posts          create  작성된 글을 생성
+GET         /posts/new      new     새로운 글을 작성하는 페이지
+GET         /posts/:id/edit edit    특정 id의 글을 재작성(수정)하는 페이지
+GET         /posts/:id      show    특정 id의 글을 보여주는 페이지
+PUT/PATCH   /posts/:id      update  특정 id의 글을 재작성된 글로 수정
+DELETE      /posts/:id      destroy 특정 id의 글을 삭제
